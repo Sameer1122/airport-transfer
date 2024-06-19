@@ -241,10 +241,10 @@ const BookALift = () => {
             </div>
           </form>
           <div className="col-span-1 md:col-span-2 flex justify-end py-4 gap-4">
-            <Button className="bg-transparent border border-[#2956d3] text-sm text-[#2956d3] rounded-3xl w-[7rem] h-[40px]">
+            <Button className="bg-transparent border font-[500] border-[#2956d3] text-sm text-[#2956d3] rounded-3xl w-[7rem] h-[40px]">
               Cancel
             </Button>
-            <Button className="bg-[#2956d3] text-sm text-white rounded-3xl w-[7rem] h-[40px] hover:bg-[#2956d3de] active:bg-[#2956d3d3]">
+            <Button className="bg-[#2956d3] font-[500] text-sm text-white rounded-3xl w-[7rem] h-[40px] hover:bg-[#2956d3de] active:bg-[#2956d3d3]">
               Submit
             </Button>
           </div>
