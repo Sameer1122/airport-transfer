@@ -8,7 +8,7 @@ const Header = () => {
     <nav className="flex items-center justify-between pt-8 bg-[#fffcf9]">
       <img
         src="logo.png"
-        className=" w-[102px] md:w-fit"
+        className=" w-[102px] md:w-fit cursor-pointer"
         onClick={() => navigate.push("/")}
       />
 

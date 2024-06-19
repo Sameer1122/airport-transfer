@@ -1,3 +1,5 @@
+import { Button } from "antd";
+import Link from "next/link";
 import React from "react";
 
 const Book = () => {
@@ -10,9 +12,11 @@ const Book = () => {
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis possimus,
         quam ex rem numquam cum! Mollitia illum labore quae
       </p>
-      <button className="bg-[#2956d3] text-sm text-white rounded-3xl w-[7rem] h-[40px] hover:bg-[#2956d3de] active:bg-[#2956d3d3]">
+      <Link href={'/book'}>
+      <Button className="bg-[#2956d3] text-sm text-white rounded-3xl w-[7rem] h-[40px] hover:bg-[#2956d3de] active:bg-[#2956d3d3]">
         Get Started
-      </button>
+      </Button>
+      </Link>
     </div>
   );
 };

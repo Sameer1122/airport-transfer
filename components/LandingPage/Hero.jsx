@@ -1,3 +1,4 @@
+import { Button } from "antd";
 import Link from "next/link";
 import React from "react";
 
@@ -14,9 +15,9 @@ const Hero = () => {
           tempore
         </p>
         <Link href={"/book"}>
-          <button className="bg-[#2956d3] text-sm text-white rounded-3xl w-[7rem] h-[40px] hover:bg-[#2956d3de] active:bg-[#2956d3d3]">
+          <Button className="bg-[#2956d3] text-sm text-white rounded-3xl w-[7rem] h-[40px] hover:bg-[#2956d3de] active:bg-[#2956d3d3]">
             Get Started
-          </button>
+          </Button>
         </Link>
       </div>
       <div className="w-[100%] md:w-[50%] flex justify-center md:justify-end">
