@@ -282,8 +282,8 @@ const BookALift = () => {
                       onOk={() => {}}
                     />
                     <TimePicker
-                      showTime
-                      type="time"
+                      use12Hours
+                      format="hh:mm a"
                       showSecond={false}
                       placeholder="Select Time"
                       onChange={(value, dateString) => {
